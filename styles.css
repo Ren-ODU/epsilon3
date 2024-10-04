@@ -1,0 +1,163 @@
+/* Place your CSS styles in this file */
+
+body {
+  background-image: linear-gradient(to bottom, rgba(14, 24, 35, 0.95), rgba(4, 14, 25, 0.95)), 
+                    url(https://file.garden/ZvyAcepvLgWyoCDZ/Epsilon3/StarrySmaller);
+  overflow-y:scroll;
+}
+
+/*********************** Header ***********************/
+.header {
+  background-blend-mode: overlay; /* Blends the image with the color */
+  background-image: linear-gradient(to bottom, rgba(4, 14, 25, 0.75), rgba(4, 14, 25, 0.75)), 
+                    url(https://file.garden/ZvyAcepvLgWyoCDZ/Epsilon3/StarrySmallest);
+  
+  color: #BEE9C2;
+  text-shadow: #55AD80 0px 0px 80px, #55AD80 0px 0px 30px;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+
+/*********************** Navbar ***********************/
+.topnav {
+  overflow: hidden;
+  background: linear-gradient(#222C37, #191F2A);
+  border-radius: 0px 0px 10px 10px;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #BEE9C2;
+  text-align: center;
+  font-family: "Quantico", sans-serif;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background: linear-gradient(#BEE9C2, #00E9BD);
+  color: #040E19;
+}
+
+/*********************** Dropdown Menus ***********************/
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: inherit;
+  border: none;
+  outline: none;
+  color: #BEE9C2;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: "Quantico", sans-serif;
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Change colors for hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background: linear-gradient(#BEE9C2, #00E9BD);
+  color: #040E19;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: linear-gradient(#222C37, #191F2A);
+  color: #BEE9C2;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  font-family: "Quantico", sans-serif;;
+  color: #BEE9C2;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border-radius: 10px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*********************** Scrollbar ***********************/
+::-webkit-scrollbar {
+  width:1.2em;
+  border-radius: 100vw;
+  margin-block: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+  background: #222C37;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #404A5A;
+  border: 0.25em solid #222C37;
+  border-radius: 100vw;
+  transition: box-shadow 0.3s; /* Smooth transition */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(#BEE9C2, #00E9BD);
+  box-shadow: #55AD80 0px 0px 80px, #55AD80 0px 0px 30px;
+}
+
+/*********************** Text Formatting ***********************/
+
+h1 {
+    color:#BEE9C2;
+    text-align: center;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: normal;
+    font-size: 3em;
+}
+
+h2 {
+    color:#BEE9C2;
+    text-align: left;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: normal;
+    font-size: 1.2em;
+
+    /*height: 0.5em;
+    line-height: 0.5em;*/
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+p {
+    color: #BEE9C2;
+    text-align: left;
+    font-family: "Quantico", sans-serif;
+    font-weight: normal;
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+
+/*********************** Footer ***********************/
+.footer {
+  background: linear-gradient(#222C37, #191F2A);
+  border-radius: 10px;
+  color: #BEE9C2;
+  text-align: center;
+  padding: 5px;
+}
+
+/*********************** Page Formatting ***********************/
+/*TBA*/
