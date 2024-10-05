@@ -150,27 +150,27 @@
                     <!-- Slideshow -->
                     <div class="slideshow-container">
             
-                    <div class="mySlides fade">
+                    <div class="mySlides1 fade">
                       <div class="numbertext">1 / 3</div>
                       <img src="https://file.garden/ZvyAcepvLgWyoCDZ/Epsilon3/Slideshow/Abduction.avif" style="width:100%">
                       <div class="text">Tractor beam in action, easily abducting three humans</div>
                     </div>
                     
-                    <div class="mySlides fade">
+                    <div class="mySlides1 fade">
                       <div class="numbertext">2 / 3</div>
                       <img src="https://file.garden/ZvyAcepvLgWyoCDZ/Epsilon3/Slideshow/Interior.avif" style="width:100%">
                       <div class="text" style="background-color: rgba(0,0,0,0.4)">Look forward to a pristine interior</div>
                         <!--*style="color: #009C7E"-->
                     </div>
                     
-                    <div class="mySlides fade">
+                    <div class="mySlides1 fade">
                       <div class="numbertext">3 / 3</div>
                       <img src="https://file.garden/ZvyAcepvLgWyoCDZ/Epsilon3/Slideshow/Cloaking.avif" style="width:100%">
                       <div class="text">Can you see the Epsilon III? No? That's Chameleon Cloaking™ in action!</div>
                     </div>
                     
-                    <a class="prev" onclick="plusSlides(-1)">❮</a>
-                    <a class="next" onclick="plusSlides(1)">❯</a>
+                    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
                     
                     </div>
                     <br>
@@ -184,29 +184,29 @@
                     <!-- 2nd Slideshow -->
                     <div class="slideshow-container">
             
-                    <div class="mySlides fade">
+                    <div class="mySlides2 fade">
                       <div class="numbertext">1 / 3</div>
                       <img src="https://file.garden/ZvyAcepvLgWyoCDZ/Epsilon3/Slideshow/Recovery.avif" style="width:100%">
                       <div class="text">Recovery options to get beamed up quick in a pinch</div>
                     </div>
                     
-                    <div class="mySlides fade">
+                    <div class="mySlides2 fade">
                       <div class="numbertext">2 / 3</div>
                       <img src="https://file.garden/ZvyAcepvLgWyoCDZ/Epsilon3/Slideshow/Scan.avif" style="width:100%">
                       <div class="text" style="background-color: rgba(0,0,0,0.4)">Scan your surroundings with ease</div>
                         <!--*style="color: #009C7E"-->
                     </div>
                     
-                    <div class="mySlides fade">
+                    <div class="mySlides2 fade">
                       <div class="numbertext">3 / 3</div>
                       <img src="https://file.garden/ZvyAcepvLgWyoCDZ/Epsilon3/Slideshow/Specimen.avif" style="width:100%">
                       <div class="text" style="background-color: rgba(0,0,0,0.4)">Containment for even the most anomalous specimens</div>
                     </div>
-                    
-                    <a class="prev" onclick="plusSlides(-1)">❮</a>
-                    <a class="next" onclick="plusSlides(1)">❯</a>
 
-                    <script src="scripts.js"></script>  <!-- Try to point to script so 1st image shows on load -->
+                        <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                          <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                    <!-- <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a> -->
                     
                     </div>
                     <br>
@@ -216,6 +216,8 @@
                       <span class="dot" onclick="currentSlide(2)"></span> 
                       <span class="dot" onclick="currentSlide(3)"></span> 
                     </div>
+
+                    <script src="scripts.js"></script>  <!-- Try to point to script so 1st image shows on load -->
                 </div>
             </div> <!-- End row -->
         </div> <!-- End main -->
