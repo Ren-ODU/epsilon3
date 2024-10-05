@@ -127,7 +127,7 @@ body {
 /* Links inside the dropdown */
 .dropdown-content a {
   float: none;
-  font-family: "Quantico", sans-serif;;
+  font-family: "Quantico", sans-serif;
   color: #BEE9C2;
   padding: 12px 16px;
   text-decoration: none;
@@ -166,7 +166,7 @@ body {
 
 /*********************** Slideshow ***********************/
 * {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
+body {font-family: "Quantico", sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
 
