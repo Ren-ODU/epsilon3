@@ -66,9 +66,8 @@ body {
 }
 
 .sidenav a:hover {
-  background: linear-gradient(#BEE9C2, #00E9BD);
-  color: #040E19;
-  box-shadow: #55AD80 0px 0px 80px;
+  color: #BEE9C2;
+  text-shadow: #55AD80 0px 0px 80px;
 }
 
 .sidenav .closebtn {
