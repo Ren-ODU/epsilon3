@@ -79,7 +79,7 @@ body {
 
 #main {
   transition: margin-left .5s;
-  padding: 16px;
+  padding: 0px; /*was 16*/
 }
 
 @media screen and (max-height: 450px) {
