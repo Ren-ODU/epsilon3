@@ -46,14 +46,16 @@ body {
 .sidenav {
   height: 100%;
   width: 0;
-  position: fixed;
+  position: sticky;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #040E19;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  background-blend-mode: multiply; /* Blends the image with the color */
+  background-image: linear-gradient(to bottom, rgba(4, 14, 25, 0.75), rgba(4, 14, 25, 0.75)), 
+                    url(https://file.garden/ZvyAcepvLgWyoCDZ/Epsilon3/StarrySmallest);
 }
 
 .sidenav a {
@@ -63,10 +65,14 @@ body {
   color: #00E9BD;
   display: block;
   transition: 0.3s;
+  background: linear-gradient(#222C37, #191F2A);
+  border-radius: 0px 0px 10px 10px;
 }
 
 .sidenav a:hover {
-  color: #BEE9C2;
+  background: linear-gradient(#BEE9C2, #00E9BD);
+  color: #040E19;
+  border-radius: 0px 0px 10px 10px;
 }
 
 .sidenav .closebtn {
