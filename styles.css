@@ -165,9 +165,8 @@ body {
 }
 
 /*********************** Slideshow ***********************/
-* {
-  box-sizing: border-box;
-  border-radius: 10px;
+img {
+  vertical-align: middle;
 }
 
 /* Position the image container (needed to position the left and right arrows) */
@@ -194,19 +193,18 @@ body {
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: #BEE9C2;
+  color: white;
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
-  background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 10px 0 0 10px;
+  border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -217,7 +215,7 @@ body {
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #BEE9C2;
+  color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -227,9 +225,9 @@ body {
 /* Container for image text */
 .caption-container {
   text-align: center;
-  background-color: #040E19;
+  background-color: #222;
   padding: 2px 16px;
-  color: #BEE9C2;
+  color: white;
 }
 
 .row:after {
@@ -242,7 +240,6 @@ body {
 .column {
   float: left;
   width: 33.33%;
-  height: 3em; /*New*/
 }
 
 /* Add a transparency effect for thumnbail images */
