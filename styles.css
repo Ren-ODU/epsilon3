@@ -66,7 +66,8 @@ body {
 }
 
 .sidenav a:hover {
-  color: #040E19;
+  color: #BEE9C2;
+  text-shadow: #55AD80 0px 0px 80px, #55AD80 0px 0px 30px;
 }
 
 .sidenav .closebtn {
