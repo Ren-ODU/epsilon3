@@ -310,13 +310,7 @@ p {
 /* Create 2 equal columns that float next to each other */
 .column {
   float: left;
-  width: 47%;
-}
-
-/* Small vertical padding column */
-.padColumn {
-  float: left;
-  width: 6%;
+  width: 50%;
 }
 
 /* Clear floats after the columns */
@@ -332,8 +326,5 @@ p {
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
-  }
-  .padColumn {
-    width: 0%;
   }
 }
