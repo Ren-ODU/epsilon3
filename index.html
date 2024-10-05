@@ -30,6 +30,10 @@
 
         <!-- Header -->
         <div class="header">
+            <div id="main">
+                <span style="font-size:30px; position: sticky; top: 0; cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+            
             <h1>Epsilon III</h1>
             <h1 style="font-size:1.5em;">
                 The future of intergalactic travel, just one purchase away
@@ -80,6 +84,18 @@
                 </div>
             <a href="#pricing">Pricing</a>
         </div>
+
+        <script>
+            function openNav() {
+              document.getElementById("mySidenav").style.width = "250px";
+              document.getElementById("main").style.marginLeft = "250px";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+              document.getElementById("main").style.marginLeft= "0";
+            }
+        </script>
 
         <!-- Main Page Content -->
         <h2 id="features">Features</h2>
