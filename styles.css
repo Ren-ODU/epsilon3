@@ -60,14 +60,15 @@ body {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #00E9BD;
+  color: #BEE9C2;
   display: block;
   transition: 0.3s;
 }
 
 .sidenav a:hover {
-  color: #BEE9C2;
-  box-shadow: #55AD80 0px 0px 80px, #55AD80 0px 0px 30px;
+  background: linear-gradient(#BEE9C2, #00E9BD);
+  color: #040E19;
+  box-shadow: #55AD80 0px 0px 80px;
 }
 
 .sidenav .closebtn {
