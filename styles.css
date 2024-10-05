@@ -166,7 +166,7 @@ body {
 
 /*********************** Slideshow ***********************/
 * {box-sizing: border-box}
-body {font-family: "Quantico", sans-serif; margin:0; padding-right:1em; padding-top: 1em}
+body {font-family: "Quantico", sans-serif; margin:0; padding-left: 2em; padding-right: 1em; padding-top: 2.5em}
 .mySlides {display: none}
 img {vertical-align: middle; border-radius: 10px;}
 
