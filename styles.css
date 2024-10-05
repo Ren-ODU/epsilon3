@@ -191,7 +191,7 @@ img {vertical-align: middle; border-radius: 10px;}
   transition: 0.6s ease;
   border-radius: 0 5px 5px 0;
   user-select: none;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.6);
 }
 
 /* Position the "next button" to the right */
@@ -223,7 +223,7 @@ img {vertical-align: middle; border-radius: 10px;}
   padding: 8px 12px;
   position: absolute;
   top: 10;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.6);
   border-radius: 10px 0px 10px 0px;
 }
 
