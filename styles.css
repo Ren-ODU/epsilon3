@@ -141,13 +141,26 @@ h2 {
     padding-left: 1em;
 }
 
+h3 {
+    color:#BEE9C2;
+    text-align: left;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: normal;
+    font-size: 1.2em;
+
+    /*height: 0.5em;
+    line-height: 0.5em;*/
+    padding-top: 2em;
+    padding-left: 2em;
+}
+
 p {
     color: #BEE9C2;
     text-align: left;
     font-family: "Quantico", sans-serif;
     font-weight: normal;
-    padding-bottom: 1em;
-    padding-left: 1em;
+    padding-bottom: 2em;
+    padding-left: 2em;
 }
 
 /*********************** Footer ***********************/
