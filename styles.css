@@ -309,22 +309,22 @@ p {
 /*********************** Page Formatting ***********************/
 /* Create 2 equal columns that float next to each other */
 .column {
-  float: right;
+  float: left;
   width: 47%;
 }
 
 /* Small vertical padding column */
 .padColumn {
-  float: right;
+  float: left;
   width: 6%;
 }
 
 /* Clear floats after the columns */
 .row:after {
   content: "";
-  /*display: table;*/
-  display:flex;
-  align-items: center;
+  display: table;
+  /*display:flex;
+  align-items: center;*/
   clear: both;
 }
 
@@ -332,5 +332,8 @@ p {
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
+  }
+  .padColumn {
+    width: 0%;
   }
 }
