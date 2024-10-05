@@ -197,6 +197,7 @@ img {vertical-align: middle; border-radius: 10px;}
 /* Position the "next button" to the right */
 .next {
   right: 0;
+  padding-right:1em
   border-radius: 5px 0 0 5px;
 }
 
