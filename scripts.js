@@ -1,15 +1,17 @@
 /* Place your JavaScript in this file */
 
 /*********************** Slideshow ***********************/
-let slideIndex[slideId[no]] = 1;
-showSlides(slideIndex[no]);
+let slideIndex = [1,1];
+let slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
 
 function plusSlides(n, no) {
-  showSlides(slideIndex[no] += n);
+  showSlides(slideIndex[no] += n, no);
 }
 
 function currentSlide(n, no) {
-  showSlides(slideIndex[no] = n);
+  showSlides(slideIndex[no] = n, no);
 }
 
 function showSlides(n, no) {
