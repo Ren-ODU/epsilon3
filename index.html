@@ -28,32 +28,7 @@
         <!-- Load external JavaScript -->
         <script src="scripts.js"></script>
 
-        <!-- Header -->
-        <div class="header">
-            <h1>Epsilon III</h1>
-            <h1 style="font-size:1.5em;">
-                The future of intergalactic travel, just one purchase away
-            </h1>
-        </div>
-
-        <!-- Navbar (Top) -->
-        <div class="topnav">
-            <a href="https://epsilon-3.w3spaces.com/"><i class="fa-solid fa-house"></i></a>
-            <div class="dropdown">
-                <button class="dropbtn">Products
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="#">Epsilon I</a>
-                    <a href="#">Epsilon II</a>
-                    <a href="#">Epsilon III</a>
-                </div>
-            </div>
-            <a href="#">About Us</a>
-            <a href="#">Contact</a>
-        </div>
-
-        <!-- SideNav (ToC) -->
+        <!-- SideNav (Sticky ToC) -->
             <div id="tableOfContents" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <a href="#features">Features</a>
@@ -91,15 +66,40 @@
             
             <script>
                 function openNav() {
-                  document.getElementById("mySidenav").style.width = "250px";
+                  document.getElementById("tableOfContents").style.width = "250px";
                   document.getElementById("main").style.marginLeft = "250px";
                 }
                 
                 function closeNav() {
-                  document.getElementById("mySidenav").style.width = "0";
+                  document.getElementById("tableOfContents").style.width = "0";
                   document.getElementById("main").style.marginLeft= "0";
                 }
             </script>
+
+        <!-- Header -->
+        <div class="header">
+            <h1>Epsilon III</h1>
+            <h1 style="font-size:1.5em;">
+                The future of intergalactic travel, just one purchase away
+            </h1>
+        </div>
+
+        <!-- Navbar (Top) -->
+        <div class="topnav">
+            <a href="https://epsilon-3.w3spaces.com/"><i class="fa-solid fa-house"></i></a>
+            <div class="dropdown">
+                <button class="dropbtn">Products
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Epsilon I</a>
+                    <a href="#">Epsilon II</a>
+                    <a href="#">Epsilon III</a>
+                </div>
+            </div>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+        </div>
 
         <!-- Main Page Content -->
         <h2 id="features">Features</h2>
