@@ -50,10 +50,10 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
+  background-color: #040E19;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-  background: #040E19;
 }
 
 .sidenav a {
@@ -79,7 +79,7 @@ body {
 
 #main {
   transition: margin-left .5s;
-  padding: 0px; /*was 16*/
+  padding: 16px;
 }
 
 @media screen and (max-height: 450px) {
